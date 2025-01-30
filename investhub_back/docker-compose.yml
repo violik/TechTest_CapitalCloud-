@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php-api
+    volumes:
+      - ./src:/var/www/html/src # Mount the src folder
+      - ./public:/var/www/html/public # Mount the public folder
+      - ./vendor:/var/www/html/vendor # Mount the vendor folder to preserve Composer dependencies
+    ports:
+      - '8000:8000' # Expose port 8000 to the host
+    networks:
+      - api-network
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_NAME=mydb
+      - DB_USER=root
+      - DB_PASS=root
+    env_file:
+      - .env
+
+  db:
+    image: mysql:8.0
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mydb
+    ports:
+      - '3306:3306'
+    networks:
+      - api-network
+
+  composer:
+    image: composer:latest
+    container_name: composer
+    volumes:
+      - .:/app
+    working_dir: /app
+    networks:
+      - api-network
+
+networks:
+  api-network:
+    driver: bridge

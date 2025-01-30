@@ -1,0 +1,40 @@
+{
+    "companies": [
+        {
+            "nom": "Société ABC",
+            "secteur": "Technologies de l'information",
+            "adresse": "123 Rue des Entrepreneurs, Paris, France",
+            "capital_social": 5000000,
+            "date_creation": "2010-06-15",
+            "nombre_parts": 10000,
+            "valorisation": 5000000
+        },
+        {
+            "nom": "Société XYZ",
+            "secteur": "Consulting",
+            "adresse": "456 Avenue des Experts, Lyon, France",
+            "capital_social": 2000000,
+            "date_creation": "2015-03-22",
+            "nombre_parts": 5000,
+            "valorisation": 2000000
+        },
+        {
+            "nom": "Société LMN",
+            "secteur": "Industrie",
+            "adresse": "789 Boulevard de l'Innovation, Marseille, France",
+            "capital_social": 3000000,
+            "date_creation": "2012-09-30",
+            "nombre_parts": 7500,
+            "valorisation": 3000000
+        },
+        {
+            "nom": "Société DEF",
+            "secteur": "Finances",
+            "adresse": "101 Rue des Investisseurs, Bordeaux, France",
+            "capital_social": 10000000,
+            "date_creation": "2005-01-10",
+            "nombre_parts": 20000,
+            "valorisation": 10000000
+        }
+    ]
+}

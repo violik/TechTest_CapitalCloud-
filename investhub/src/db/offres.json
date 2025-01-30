@@ -1,0 +1,128 @@
+{
+    "offres": [
+        {
+            "id": "1",
+            "ownerId": 1,
+            "titre": "Cession de 10% des parts de la société ABC",
+            "description": "Cession de 10% des parts de la société ABC, spécialisée dans les technologies de l'information et la gestion des données.",
+            "valeur_part": 100000,
+            "nombre_parts": 10,
+            "prix_total": 1000000,
+            "date_debut_offre": "2025-02-01",
+            "date_fin_offre": "2025-03-01",
+            "conditions": "L'acheteur doit être une entreprise inscrite au registre du commerce. Le paiement doit être effectué dans un délai de 30 jours après la signature du contrat.",
+            "type_offre": "cession",
+            "status": "pending",
+            "details_societe": {
+                "id": 1,
+                "ownerId": 1,
+                "nom": "Société ABC",
+                "secteur": "Technologies de l'information",
+                "adresse": "123 Rue des Entrepreneurs, Paris, France",
+                "capital_social": 5000000,
+                "date_creation": "2010-06-15",
+                "nombre_parts": 10000,
+                "valorisation": 5000000
+            },
+            "contact": {
+                "id": 1,
+                "nom": "Jean Dupont",
+                "email": "jean.dupont@abc.com",
+                "telephone": "+33 1 23 45 67 89"
+            }
+        },
+        {
+            "id": "2",
+            "ownerId": 1,
+            "titre": "Cession de 5% des parts de la société XYZ",
+            "description": "Cession de 5% des parts de la société XYZ, spécialisée dans les services de consulting en management.",
+            "valeur_part": 200000,
+            "nombre_parts": 5,
+            "prix_total": 1000000,
+            "date_debut_offre": "2025-02-15",
+            "date_fin_offre": "2025-03-15",
+            "conditions": "Le paiement peut être effectué en deux fois, avec un premier versement de 50% à la signature du contrat. Une vérification préalable des états financiers de la société est requise.",
+            "type_offre": "cession",
+            "status": "available",
+            "details_societe": {
+                "id": 2,
+                "ownerId": 2,
+                "nom": "Société XYZ",
+                "secteur": "Consulting",
+                "adresse": "456 Avenue des Experts, Lyon, France",
+                "capital_social": 2000000,
+                "date_creation": "2015-03-22",
+                "nombre_parts": 5000,
+                "valorisation": 2000000
+            },
+            "contact": {
+                "id": 2,
+                "nom": "Sophie Martin",
+                "email": "sophie.martin@xyz.com",
+                "telephone": "+33 4 56 78 90 12"
+            }
+        },
+        {
+            "id": "3",
+            "ownerId": 2,
+            "titre": "Cession de 8% des parts de la société LMN",
+            "description": "Cession de 8% des parts de la société LMN, spécialisée dans l'industrie et l'innovation.",
+            "valeur_part": 300000,
+            "nombre_parts": 8,
+            "prix_total": 2400000,
+            "date_debut_offre": "2025-03-01",
+            "date_fin_offre": "2025-04-01",
+            "conditions": "L'acheteur doit fournir une preuve de solvabilité. Les parts seront transférées uniquement après l'approbation des actionnaires.",
+            "type_offre": "cession",
+            "status": "sold",
+            "details_societe": {
+                "id": 3,
+                "ownerId": 3,
+                "nom": "Société LMN",
+                "secteur": "Industrie",
+                "adresse": "789 Boulevard de l'Innovation, Marseille, France",
+                "capital_social": 3000000,
+                "date_creation": "2012-09-30",
+                "nombre_parts": 7500,
+                "valorisation": 3000000
+            },
+            "contact": {
+                "id": 3,
+                "nom": "Pierre Lefevre",
+                "email": "pierre.lefevre@lmn.com",
+                "telephone": "+33 4 72 34 56 78"
+            }
+        },
+        {
+            "id": "4",
+            "ownerId": 3,
+            "titre": "Cession de 15% des parts de la société DEF",
+            "description": "Cession de 15% des parts de la société DEF, spécialisée dans les services financiers.",
+            "valeur_part": 400000,
+            "nombre_parts": 15,
+            "prix_total": 6000000,
+            "date_debut_offre": "2025-03-15",
+            "date_fin_offre": "2025-04-15",
+            "conditions": "L'acheteur doit signer un NDA (accord de confidentialité) avant la transaction. Un acompte de 25% est requis pour valider l'achat.",
+            "type_offre": "cession",
+            "status": "available",
+            "details_societe": {
+                "id": 4,
+                "ownerId": 4,
+                "nom": "Société DEF",
+                "secteur": "Finances",
+                "adresse": "101 Rue des Investisseurs, Bordeaux, France",
+                "capital_social": 10000000,
+                "date_creation": "2005-01-10",
+                "nombre_parts": 20000,
+                "valorisation": 10000000
+            },
+            "contact": {
+                "id": 4,
+                "nom": "Jacques Moreau",
+                "email": "jacques.moreau@def.com",
+                "telephone": "+33 5 56 78 90 12"
+            }
+        }
+    ]
+}

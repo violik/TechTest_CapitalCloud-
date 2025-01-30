@@ -1,0 +1,22 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "ownerId": 1,
+            "name": "Société ABC",
+            "sector": "Tech",
+            "address": "123 Tech Street, Silicon Valley",
+            "capital_social": 5000000,
+            "date_creation": "2010-06-15"
+        },
+        {
+            "id": 2,
+            "ownerId": 2,
+            "name": "Société XYZ",
+            "sector": "Finance",
+            "address": "456 Finance Ave, New York",
+            "capital_social": 2000000,
+            "date_creation": "2015-03-22"
+        }
+    ]
+}
